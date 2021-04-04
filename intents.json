@@ -1,0 +1,18 @@
+{"intents": [
+        {"tag": "Positive",
+         "patterns": ["I did","I would definitely recommend it","I would recommend it"],
+          "responses": ["Q2"],
+          "context": [""]
+        },
+        {"tag": "Negative",
+         "patterns": ["I would not recommend it","I wouldn't recommend it","unusable"],
+         "responses": ["Q2"],
+         "context": [""]
+        },
+        {"tag": "default_fallback",
+         "patterns": [],
+         "responses": ["Q1b"],
+         "context": [""]
+        }
+   ]
+}
